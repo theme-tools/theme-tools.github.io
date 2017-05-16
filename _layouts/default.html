@@ -1,0 +1,20 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  </head>
+  <body>
+    <header>
+      <h1>{{site.name}}</h1>
+    </header>
+    <article>
+      {{content}}
+    </article>
+
+  </body>
+
+</html>
